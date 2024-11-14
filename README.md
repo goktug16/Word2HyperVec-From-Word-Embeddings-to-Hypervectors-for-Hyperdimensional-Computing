@@ -160,4 +160,23 @@ cd repo_name</code></pre>
       <li>Outputs training and test sets in <code>airline_train_data.pkl</code> and <code>airline_test_data.pkl</code>.</li>
     </ul>
   </li>
- 
+  <li><strong>Positional Encoding</strong>:
+    <ul>
+      <li>Convert tweets into word embeddings using <code>twitter_us_airlines_word2vec_64.model</code>.</li>
+      <li>Apply positional encoding and normalization, outputting <code>imdb_train_pos_encoded.pkl</code> and <code>imdb_test_pos_encoded.pkl</code>.</li>
+    </ul>
+  </li>
+  <li><strong>Hypervector Dictionary Creation</strong>:
+    <ul>
+      <li>Generate a dictionary of hypervectors to map numerical values to high-dimensional vectors.</li>
+      <li>Outputs the dictionary in <code>hdc_10k_0.0001.json</code>.</li>
+    </ul>
+  </li>
+  <li><strong>Training and Evaluation</strong>:
+    <ul>
+      <li>Train the HDC model on the positionally encoded training data.</li>
+      <li>Evaluate model accuracy on test data using the main code <code>HDC_epoch_training_with_lr.py</code>.</li>
+    </ul>
+  </li>
+</ol>
+
