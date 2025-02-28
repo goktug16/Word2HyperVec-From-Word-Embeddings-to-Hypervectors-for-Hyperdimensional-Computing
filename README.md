@@ -1,6 +1,6 @@
 <h1>Word2HyperVec: From Word Embeddings to Hypervectors for Hyperdimensional Computing</h1>
 
-<p>This repository provides a complete pipeline for classifying airline tweets as either positive or negative by converting traditional word embeddings into <strong>Hyperdimensional Computing (HDC)</strong> hypervectors. The system leverages HDC’s robustness with a novel integration of positional encoding and hypervector representation for sentiment classification tasks.</p>
+<p>This repository provides a complete pipeline for classifying airline tweets as either positive or negative by converting traditional word embeddings into <strong>Hyperdimensional Computing (HDC)</strong> hypervectors. The system leverages HDC’s robustness with a novel integration of positional encoding and hypervector representation for sentiment classification tasks. Word2HyperVec is a proposed algorithm in: https://dl.acm.org/doi/10.1145/3649476.3658795</p>
 
 <h2>Table of Contents</h2>
 <ul>
